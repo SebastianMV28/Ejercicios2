@@ -4,7 +4,15 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            int n1, n2, result;
+            Console.WriteLine("Enter first number");
+            n1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Enter second number");
+            n2 = int.Parse(Console.ReadLine());
+
+            result = (n1*n2)*2;
+            Console.WriteLine("The result of your count is " + result);
+
         }
     }
 }
