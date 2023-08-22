@@ -15,6 +15,14 @@
             result = (n1*n2)*porcent;
             Console.WriteLine("The result of your count is " + result);
 
+            string w1, w2, w3;
+            w1 = w2 = w3 = "This is War";
+            Console.WriteLine(w1 + " " + w2+ " "+ w3 );
+
+            float f1, f2;
+            f1 = f2 = 2145.02f;
+            Console.WriteLine(f1 + " " + f2);
+            Console.WriteLine(f1+f2 );
         }
     }
 }
