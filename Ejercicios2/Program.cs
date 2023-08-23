@@ -26,10 +26,11 @@
             int newIn = (int)newFlo;
             Console.WriteLine("This is a new float converted to int: "+ newIn);
 
-            char c1= '1';
+            char c1= '$';
             int myInt = c1;
             Console.WriteLine(myInt);
             Console.WriteLine(Convert.ToInt32(c1));
+            Console.WriteLine(Convert.ToString(c1));
         }
     }
 }
