@@ -22,7 +22,14 @@
             float f1, f2;
             f1 = f2 = 2145.02f;
             Console.WriteLine(f1 + " " + f2);
-            Console.WriteLine(f1+f2 );
+            float newFlo = f1 + f2;
+            int newIn = (int)newFlo;
+            Console.WriteLine("This is a new float converted to int: "+ newIn);
+
+            char c1= '1';
+            int myInt = c1;
+            Console.WriteLine(myInt);
+            Console.WriteLine(Convert.ToInt32(c1));
         }
     }
 }
